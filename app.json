@@ -1,0 +1,17 @@
+"name": "VC Relay Bot",
+  "description": "Live Voice Relay Bot",
+  "image": "heroku/python",
+  "addons": [],
+  "env": {
+    "SOURCE_API_ID": {"description": "Source API ID"},
+    "SOURCE_API_HASH": {"description": "Source API Hash"},
+    "SOURCE_PHONE": {"description": "Source Phone"},
+    "TARGET_API_ID": {"description": "Target API ID"},
+    "TARGET_API_HASH": {"description": "Target API Hash"},
+    "TARGET_PHONE": {"description": "Target Phone"},
+    "SOURCE_GROUP": {"description": "Source Group ID"},
+    "OWNER_ID": {"description": "Owner ID"},
+    "DEFAULT_VOLUME": {"description": "Default Volume", "value": "1000"},
+    "DEFAULT_BASS": {"description": "Default Bass", "value": "5"},
+    "DEFAULT_EQ": {"description": "Default EQ", "value": "normal"}
+  }
