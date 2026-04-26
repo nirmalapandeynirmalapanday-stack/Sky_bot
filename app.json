@@ -1,4 +1,5 @@
-"name": "VC Relay Bot",
+{
+  "name": "VC Relay Bot",
   "description": "Live Voice Relay Bot",
   "image": "heroku/python",
   "addons": [],
@@ -15,3 +16,4 @@
     "DEFAULT_BASS": {"description": "Default Bass", "value": "5"},
     "DEFAULT_EQ": {"description": "Default EQ", "value": "normal"}
   }
+}
