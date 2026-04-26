@@ -1,6 +1,6 @@
 pyrogram==2.0.106
 tgcrypto
 aiohttp
-py-tgcalls==5.1.1
+pytgcalls
 ffmpeg-python
 yt-dlp
